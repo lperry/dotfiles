@@ -47,6 +47,7 @@ set laststatus=2
 set list
 set listchars=eol:<,tab:>-,trail:-
 set nomodeline
+set noshowmode
 set nrformats-=octal
 set number
 set ruler
