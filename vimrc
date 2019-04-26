@@ -2,13 +2,13 @@ set all&
 
 call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
+Plug 'itchyny/lightline.vim', { 'as': 'vim-lightline' }
 Plug 'morhetz/gruvbox', { 'as': 'vim-gruvbox' }
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
-Plug 'vim-airline/vim-airline'
 Plug 'w0rp/ale', { 'as': 'vim-ale' }
 call plug#end()
 
