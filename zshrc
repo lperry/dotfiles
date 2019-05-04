@@ -8,6 +8,8 @@ else
     alias ls='ls --color=auto'
 fi
 
+autoload -U compinit && compinit
+
 HISTFILE=~/.zhistory
 HISTSIZE=50000
 SAVEHIST=10000
