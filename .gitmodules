@@ -1,6 +1,6 @@
 [submodule "vim/vim-plug"]
 	path = vim/vim-plug
-	url = git@github.com:junegunn/vim-plug.git
+	url = https://github.com/junegunn/vim-plug.git
 [submodule "zfunctions/pure"]
 	path = zfunctions/pure
-	url = git@github.com:sindresorhus/pure.git
+	url = https://github.com/sindresorhus/pure.git
