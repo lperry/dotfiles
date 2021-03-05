@@ -10,6 +10,14 @@ fi
 
 autoload -U compinit && compinit
 
+if [[ -f /opt/local/share/zsh/site-functions/fzf ]]; then
+    source /opt/local/share/zsh/site-functions/fzf
+fi
+
+if [[ -f /opt/local/share/fzf/shell/key-bindings.zsh ]]; then
+    source /opt/local/share/fzf/shell/key-bindings.zsh
+fi
+
 HISTFILE=~/.zhistory
 HISTSIZE=50000
 SAVEHIST=10000
