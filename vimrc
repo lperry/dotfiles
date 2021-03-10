@@ -2,6 +2,7 @@ set all&
 
 call plug#begin('~/.vim/plugged')
 Plug 'airblade/vim-gitgutter'
+Plug 'dense-analysis/ale', { 'as': 'vim-ale' }
 Plug 'itchyny/lightline.vim', { 'as': 'vim-lightline' }
 Plug 'junegunn/fzf', { 'as': 'vim-fzf' }
 Plug 'junegunn/fzf.vim', { 'as': 'vim-fzf.vim' }
@@ -11,7 +12,6 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
-Plug 'w0rp/ale', { 'as': 'vim-ale' }
 call plug#end()
 
 try
